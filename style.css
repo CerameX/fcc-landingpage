@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#header-img {
+    width: 100px;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(86, 143, 108);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header-img {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#nav-bar li {
+    float: right;
+}
+
+#nav-bar li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover {
+    text-decoration: underline;
+}
+
+#top-image {
+    margin-top: 50px;
+    padding-top: 100px;
+    height: 30vh;
+    background-image: url(top-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+#mail-form input {
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 50vw;
+    text-align: center;
+}
+
+#mail-form button {
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    background-color: rgb(255, 140, 0);
+    width: 200px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 193, 184);
+}
+
+.flex-item {
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.flex-item img {
+    width: 100px;
+}
+
+
+/* .flex-item:nth-child(1) {
+    color: black;
+}
+
+.flex-item:nth-child(2) {
+    color: yellow;
+}
+
+.flex-item:nth-child(3) {
+    color: red;
+} */
