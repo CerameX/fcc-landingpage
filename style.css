@@ -61,18 +61,18 @@ body {
     display: block;
     margin: auto;
     padding: 7px;
-    margin-bottom: 10px;
     width: 50vw;
     text-align: center;
 }
 
-#mail-form button {
+button {
     border: none;
     display: block;
     margin: auto;
     padding: 7px;
     background-color: rgb(255, 140, 0);
     width: 200px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -112,3 +112,28 @@ h1 {
 .flex-item:nth-child(3) {
     color: red;
 } */
+
+#video {
+    height: 400px;
+    padding: 50px;
+}
+
+iframe {
+    margin: auto;
+}
+
+#pricing-table ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pricing-table .flex-item {
+    border: 1pt solid rgb(0, 0, 0);
+    background-color: rgb(86, 143, 108);
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
