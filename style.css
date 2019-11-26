@@ -119,10 +119,11 @@ h1 {
 #video {
     height: 400px;
     padding: 50px;
+    text-align: center;
 }
 
-iframe {
-    margin: auto;
+.hiker {
+    margin-bottom: 20px;
 }
 
 #pricing-table ul {
@@ -145,6 +146,7 @@ footer {
     background-color: rgb(86, 143, 108);
     height: 60px;
     line-height: 60px;
+    text-align: center;
 }
 
 #footer-img {
