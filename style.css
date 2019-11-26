@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -74,8 +80,15 @@ button {
     margin: auto;
     padding: 7px;
     background-color: rgb(255, 140, 0);
+    color: rgb(0, 0, 0);
     width: 200px;
     margin-top: 10px;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 117, 0);
 }
 
 h1 {
